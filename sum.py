@@ -1,7 +1,1 @@
-from sys import argv
-sum=0
-args=argv[1:]
-for x in args :
- n=int(x)
- sum=sum+n
-print("the sum:",sum)
+print("the sum:",int(input("enter first number"))+int(input("enter second number")))
